@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:background="@drawable/broder_shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/title_detailsfood"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/runid"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_food">
+
+            </ImageView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:id="@+id/wayrunid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:text="Preare your healthy food "
+                android:textColor="#00B8D4"
+                android:textSize="24sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    <ScrollView
+
+        android:layout_below="@id/title_detailsfood"
+        android:layout_above="@id/textviewfood_okid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/demotext_food"
+            android:padding="10dp"
+            android:textColor="#00B8D4">
+
+        </TextView>
+
+    </ScrollView>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/textviewfood_okid"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="right"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+

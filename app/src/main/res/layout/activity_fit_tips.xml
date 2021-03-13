@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+   android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FitTipsActivity">
+
+
+    <LinearLayout
+        android:background="@drawable/broder_shape"
+        android:id="@+id/waterlayoutid"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+
+        <LinearLayout
+
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="horizontal">
+
+         <!--   <ImageView
+
+                android:layout_marginLeft="20dp"
+                android:id="@+id/waterid"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_water">
+
+            </ImageView>-->
+            <pl.droidsonroids.gif.GifImageView
+
+                android:background="#ffffff"
+                android:id="@+id/waterid"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/water"
+                android:scaleType="center">
+
+            </pl.droidsonroids.gif.GifImageView>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/drinkwaterid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Trick to drink much water"
+                android:textColor="#00B8D4"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="@drawable/broder_shape"
+        android:id="@+id/runlayoutid"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+           <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+           <!--     <ImageView
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/runid"
+                    android:src="@drawable/ic_run"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp">
+
+                </ImageView>-->
+               <pl.droidsonroids.gif.GifImageView
+                   android:id="@+id/runid"
+                   android:layout_gravity="center"
+                   android:padding="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/run"
+                   android:scaleType="center">
+
+               </pl.droidsonroids.gif.GifImageView>
+
+                <TextView
+
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="45dp"
+                    android:id="@+id/wayrunid"
+                    android:textSize="18sp"
+                    android:textColor="#00B8D4"
+                    android:text="Way to run"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="@drawable/broder_shape"
+        android:id="@+id/walklayoutid"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!--    <ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/walkid"
+                android:src="@drawable/ic_walk"
+                android:layout_width="40dp"
+                android:layout_height="70dp">
+
+            </ImageView>-->
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/walkid"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/walk"
+                android:scaleType="center">
+
+            </pl.droidsonroids.gif.GifImageView>
+
+            <TextView
+
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="66dp"
+                android:id="@+id/howwalkid"
+                android:textSize="18sp"
+                android:textColor="#00B8D4"
+                android:text="how to walk "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
